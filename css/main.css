@@ -1,9 +1,43 @@
-*{
+*,
+*::after,
+*::before{
     box-sizing: border-box;
 
+
 }
-body{display: flex;
+body{
+    padding: 0;
+    margin: 0;
+    font-family:  'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    display: flex;
     margin-right: auto;
     margin-left: auto;
     background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+
+
+    /* background: linear-gradient(to left, #C06C84, #6C5B7B, #355C7D);
+     */
+    /*
+    background: linear-gradient(to right, #6A82FB, #FC5C7D);*/
+     /*background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+
+    */
+    /* background: linear-gradient(to right, #d3cce3, #e9e4f0);  */
+    /* background: linear-gradient(to right, #74ebd5, #acb6e5); */
+    /* background: linear-gradient(to right, #c9d6ff, #e2e2e2); */
+    /* background: linear-gradient(to right, #d9a7c7, #fffcdc); */
+    /* background: linear-gradient(to right, #c33764, #1d2671); */
+    /* background: linear-gradient(to right, #200122, #6f0000); */
+    /* background: linear-gradient(to right, #4568dc, #b06ab3); */
+    /* background: linear-gradient(to right, #43c6ac, #191654); */
+    /* background: linear-gradient(to right, #43c6ac, #f8ffae); */
+    /*  background: linear-gradient(to right, #ffafbd, #ffc3a0); */
+    /* background: linear-gradient(to right, #e8cbc0, #636fa4);  */
+    /* background: linear-gradient(to right, #41295a, #2f0743); */
+    /* background: linear-gradient(to right, #a1ffce, #faffd1); */
+    /* background: linear-gradient(to right, #bdc3c7, #2c3e50); */
+    /* background: linear-gradient(to right, #42275a, #734b6d); */
+    /* background: linear-gradient(to right, #e0eafc, #cfdef3); */
+    /* background: linear-gradient(to right, #4ca1af, #c4e0e5); */
+    background: linear-gradient(to right, #4b79a1, #283e51);
 }
