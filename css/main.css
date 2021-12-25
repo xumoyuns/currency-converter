@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+
+}
+body{display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
